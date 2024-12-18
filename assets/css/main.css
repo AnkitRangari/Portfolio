@@ -184,7 +184,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #E27689;
+			color: #fdb828;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -2178,7 +2178,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+						color: #fdb828;
 					}
 
 /* Footer */
@@ -2257,11 +2257,11 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/bg.jpg");
+				background-image: url("../../images/Background.png");
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #f5f7fa;
 			}
 
 			#main > section.three {
@@ -2640,3 +2640,43 @@ input, select, textarea {
 				}
 
 	}
+
+/* Profile Picture Styling */
+.profile-pic {
+    width: 150%; /* Ensures the image takes the full width of its container */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: 100; /* Crops the image to fill the container while keeping aspect ratio */
+    border-radius: 5%; /* Optional: Makes the image circular */
+}
+
+/* Container Styling */
+.col-3 {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+    overflow: visible; /* Ensures any overflow content is hidden */
+}
+
+.skills-heading {
+    text-align: center; /* Centers the heading */
+    font-weight: bold; /* Makes the heading bold */
+}
+
+/* skill styling */
+.skills-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.skills-list li strong {
+    font-weight: bold; /* Ensures the subheadings are bold */
+}
+/* Ensure the list and its items are aligned to the left */
+.skills-list {
+    text-align: left; /* Aligns the text to the left */
+    padding-left: 20px; /* Adds some left padding for better spacing */
+}
+
+.skills-list li {
+    margin-bottom: 10px; /* Adds space between the list items */
+}
+
